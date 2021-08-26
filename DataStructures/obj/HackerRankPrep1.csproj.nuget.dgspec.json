@@ -1,0 +1,72 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\GitHub-Nivi\\HackerRank\\HackerRankPrep1\\HackerRankPrep1\\HackerRankPrep1.csproj": {}
+  },
+  "projects": {
+    "C:\\GitHub-Nivi\\HackerRank\\HackerRankPrep1\\HackerRankPrep1\\HackerRankPrep1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\GitHub-Nivi\\HackerRank\\HackerRankPrep1\\HackerRankPrep1\\HackerRankPrep1.csproj",
+        "projectName": "HackerRankPrep1",
+        "projectPath": "C:\\GitHub-Nivi\\HackerRank\\HackerRankPrep1\\HackerRankPrep1\\HackerRankPrep1.csproj",
+        "packagesPath": "C:\\Users\\neewedita_tewari\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub-Nivi\\HackerRank\\HackerRankPrep1\\HackerRankPrep1\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\neewedita_tewari\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://dcsartifacts.dell.com/artifactory/api/nuget/csb-nuget": {},
+          "http://dcsartifacts.dell.com/artifactory/api/nuget/nuget-local": {},
+          "http://dcsartifacts.dell.com/artifactory/api/nuget/v3/nuget": {},
+          "http://dcsartifacts.dell.com/artifactory/nuget-remote/.nuGetV3/feed.json": {},
+          "http://dcsartifacts.dell.com/artifactory/nuget/.nuGetV3/feed.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dcsartifacts.dell.com/artifactory/api/nuget/csb-nuget/": {},
+          "https://dcsartifacts.dell.com/artifactory/api/nuget/nuget": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+C:\GitHub-Nivi\HackerRank\HackerRankPrep1\HackerRankPrep1\bin\Debug\netcoreapp3.1\HackerRankPrep1.exe
+C:\GitHub-Nivi\HackerRank\HackerRankPrep1\HackerRankPrep1\bin\Debug\netcoreapp3.1\HackerRankPrep1.deps.json
+C:\GitHub-Nivi\HackerRank\HackerRankPrep1\HackerRankPrep1\bin\Debug\netcoreapp3.1\HackerRankPrep1.runtimeconfig.json
+C:\GitHub-Nivi\HackerRank\HackerRankPrep1\HackerRankPrep1\bin\Debug\netcoreapp3.1\HackerRankPrep1.runtimeconfig.dev.json
+C:\GitHub-Nivi\HackerRank\HackerRankPrep1\HackerRankPrep1\bin\Debug\netcoreapp3.1\HackerRankPrep1.dll
+C:\GitHub-Nivi\HackerRank\HackerRankPrep1\HackerRankPrep1\bin\Debug\netcoreapp3.1\HackerRankPrep1.pdb
+C:\GitHub-Nivi\HackerRank\HackerRankPrep1\HackerRankPrep1\obj\Debug\netcoreapp3.1\HackerRankPrep1.csproj.AssemblyReference.cache
+C:\GitHub-Nivi\HackerRank\HackerRankPrep1\HackerRankPrep1\obj\Debug\netcoreapp3.1\HackerRankPrep1.AssemblyInfoInputs.cache
+C:\GitHub-Nivi\HackerRank\HackerRankPrep1\HackerRankPrep1\obj\Debug\netcoreapp3.1\HackerRankPrep1.AssemblyInfo.cs
+C:\GitHub-Nivi\HackerRank\HackerRankPrep1\HackerRankPrep1\obj\Debug\netcoreapp3.1\HackerRankPrep1.csproj.CoreCompileInputs.cache
+C:\GitHub-Nivi\HackerRank\HackerRankPrep1\HackerRankPrep1\obj\Debug\netcoreapp3.1\HackerRankPrep1.dll
+C:\GitHub-Nivi\HackerRank\HackerRankPrep1\HackerRankPrep1\obj\Debug\netcoreapp3.1\HackerRankPrep1.pdb
+C:\GitHub-Nivi\HackerRank\HackerRankPrep1\HackerRankPrep1\obj\Debug\netcoreapp3.1\HackerRankPrep1.genruntimeconfig.cache
