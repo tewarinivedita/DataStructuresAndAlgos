@@ -9,6 +9,11 @@ namespace HackerRankPrep1
     {
         static void Main(string[] args)
         {
+            //TreeNode root  = Trees.InsertLevelOrder(new[] {1, 2, 3, 4, 5, 6, 6, 6, 6, 6}, null, 0);
+
+            TreeNode root = Trees.InsertLevelOrder(new int?[] {3, 9, 20, null, null, 15, 7}, null, 0);
+
+            int maxDepth = Trees.MaxDepth(root);
 
             int[] range = Search.SearchRange(new[] { 2,2}, 1);
             int pos = Search.BinarySearch(new []{ 1 }, 1);
