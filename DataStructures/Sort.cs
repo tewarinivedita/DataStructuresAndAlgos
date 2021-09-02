@@ -1,13 +1,17 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
-using System.Text;
 
 namespace DataStructures
 {
     //QuickSort, Merge Sort, tree traversal, graph = > recursion 
     class Sort
     {
+        //Hare's Algorithm
+        public static void KthLargestElementInArray(List<int> values)
+        {
+
+        }
+
         public static void QuickSort(List<int> values)
         {
             QuickSortRecurssion(values, 0, values.Count - 1);
@@ -31,21 +35,16 @@ namespace DataStructures
             {
                 if (values[j] > pElement)
                 {
-                    Swap(values, i, j);
+                    Utility.Swap(values, i, j);
                     i++;
                 }
             }
 
-            Swap(values, i, right);
+            Utility.Swap(values, i, right);
             return i;
         }
 
-        public static void Swap(List<int> values, int i, int j)
-        {
-            int tmp = values[i];
-            values[i] = values[j];
-            values[j] = tmp;
-        }
+       
 
         //O(N)
         //Move the largest to the right
@@ -90,7 +89,7 @@ namespace DataStructures
                     j++;
                 }
 
-                Swap(values, sIndex, i);
+                Utility.Swap(values, sIndex, i);
             }
         }
 

@@ -62,27 +62,38 @@ namespace DataStructures
             public static string TransformByRemovingFrom(string S)
             {
                 // write your code in C# 6.0 with .NET 4.5 (Mono)
-                string transformedString = string.Empty;
+                
                 char[] arr = S.ToCharArray();
                 int i = 1;
-                while ()
+                bool IsNotLastCheck = true;
+                while (IsNotLastCheck)
                 {
-                    string tempString = arr[i - 1].ToString() + arr[i].ToString();
-                    if (tempString == "AA" || tempString == "BB" || tempString == "CC")
+                    IsNotLastCheck = false;
+                    while (i < S.Length)
                     {
-                        i += 2;
-                        if (i == arr.Length - 1)
+                        string tempString = arr[i - 1] + arr[i].ToString();
+                        if (tempString == "AA" || tempString == "BB" || tempString == "CC")
                         {
-                            transformedString += arr[i];
-                            break;
+                            arr[i - 1] = (char)0;//'\0'
+                            arr[i] = (char)0;
+                            i += 2;
+                            IsNotLastCheck = true;
+                            continue;
                         }
-                        continue;
+
+                        i += 1;
                     }
 
-                    i += 1;
-                    transformedString += arr[i];
+                    string cleanString = new string(arr);
+                    arr = cleanString.ToCharArray();
+                    if(arr.Length > 1)
+                        i = 1;
+                    else
+                        break;
+                        
                 }
-                return transformedString;
+               
+                return new string(arr);
             }
 
             //Almost Palindrome - removing one character

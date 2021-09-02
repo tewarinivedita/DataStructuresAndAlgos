@@ -9,6 +9,13 @@ namespace HackerRankPrep1
     {
         static void Main(string[] args)
         {
+
+            int[] range = Search.SearchRange(new[] { 2,2}, 1);
+            int pos = Search.BinarySearch(new []{ 1 }, 1);
+            int[] rangePosArray = Search.FindFirstAndLastPositionOfElement(new[] { 1, 2, 3, 4, 5, 6, 8, 8, 8, 10}, -8);
+            rangePosArray = Search.FindFirstAndLastPositionOfElement(new[] { 1, 2, 3, 4, 5, 6, 8, 8, 8, 10 }, 8);
+
+
             StringsInterviewQuestions.MyStringCode.TransformByRemovingFrom("ACCAABBC");
 
             Sort.InsertionSort(new [] { 12, 11});
@@ -83,6 +90,8 @@ namespace HackerRankPrep1
             //sLL.Traverse(sLL.head);
             //IsSherlockString(inputString);
         }
+
+        
 
         public static string IsSherlockString(string inputString)
         {
